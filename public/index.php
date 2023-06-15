@@ -8,6 +8,6 @@ require '../vendor/autoload.php';
 session_start();
 
 //dd($_SERVER);
-dd(RequestType::get());
+//dd(RequestType::get());
 
 Router::run();

@@ -8,6 +8,6 @@ class Router
         $routerRegistered = new RoutersFilter;
         $router = $routerRegistered->get();
 
-        dd($router);
+        //dd($router);
     }
 }
